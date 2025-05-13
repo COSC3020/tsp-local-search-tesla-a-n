@@ -50,3 +50,14 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+Each iteration is O(n) for the 2-opt swap and O(n) to calculate the new distance
+Maximum iterations is O(n)
+So overall: O(n × n × n) = $\Theta(n³)$ is the worst case
+
+I used CoPilot to translate pcode 
+
+I used this link for all TSP submissions
+[TSP](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
